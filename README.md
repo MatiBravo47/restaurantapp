@@ -21,3 +21,8 @@ bun dev
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Learn Next.js](https://nextjs.org/learn) 
 - [tailwind](https://tailwindcss.com)
+### Funciones a realizar: 
+- Mostrar estado de ocupacion con su respectivo color.
+- Mostrar consumo cada mesa.
+- Mostrar consumo detallado a hacer click en la mesa.
+
