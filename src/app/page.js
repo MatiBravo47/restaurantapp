@@ -14,9 +14,14 @@ export default function Home() {
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Mesa 1{' '}
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Disponible
-          </p>
+          <div className="w-full max-w-xs">
+            <label htmlFor="seleccion" className="block text-gray-700 text-sm font-bold mb-2"></label>
+              <select id="seleccion" name="seleccion" className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:outline-none focus:border-blue-300">
+                <option value="opcion1">Disponible</option>
+                <option value="opcion2">Ocupado</option>
+              </select>
+          </div>
+
         </a>
 
         {/*Mesa 2 */}
@@ -28,9 +33,13 @@ export default function Home() {
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Mesa 2{' '}
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Ocupado
-          </p>
+          <div className="w-full max-w-xs">
+            <label htmlFor="seleccion" className="block text-gray-700 text-sm font-bold mb-2"></label>
+              <select id="seleccion" name="seleccion" className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:outline-none focus:border-blue-300">
+                <option value="opcion1">Disponible</option>
+                <option value="opcion2">Ocupado</option>
+              </select>
+          </div>
         </a>
 
         {/*Mesa 3 */}
@@ -42,9 +51,13 @@ export default function Home() {
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Mesa 3{' '}
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Ocupado
-          </p>
+          <div className="w-full max-w-xs">
+            <label htmlFor="seleccion" className="block text-gray-700 text-sm font-bold mb-2"></label>
+              <select id="seleccion" name="seleccion" className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:outline-none focus:border-blue-300">
+                <option value="opcion1">Disponible</option>
+                <option value="opcion2">Ocupado</option>
+              </select>
+          </div>
         </a>
 
 
@@ -57,9 +70,13 @@ export default function Home() {
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Mesa 4{' '}
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Disponible
-          </p>
+          <div className="w-full max-w-xs">
+            <label htmlFor="seleccion" className="block text-gray-700 text-sm font-bold mb-2"></label>
+              <select id="seleccion" name="seleccion" className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-200 focus:outline-none focus:border-blue-300">
+                <option value="opcion1">Disponible</option>
+                <option value="opcion2">Ocupado</option>
+              </select>
+          </div>
         </a>
       </div>
     </main>
